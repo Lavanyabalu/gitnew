@@ -12,6 +12,10 @@ public class StudentsData {
 	System.out.println("Student id:123434");
 	}
 	
+	public void studentAddress() {
+		System.out.println("StudentAddress:Salem");
+
+	}
 	public static void main(String[] args) {
 		
 		StudentsData e=new StudentsData();
