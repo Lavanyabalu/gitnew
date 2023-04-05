@@ -12,11 +12,17 @@ public class StudentsData {
 	System.out.println("Student id:123434");
 	}
 	
+	private void studentNumber() {
+		System.out.println("Student Number:1234567890");
+
+	}
+	
 	public static void main(String[] args) {
 		
 		StudentsData e=new StudentsData();
 		e.studentName();
 		e.studentId();
+		e.studentNumber();
 	}
 	
 
